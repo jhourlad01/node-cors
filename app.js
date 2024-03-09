@@ -7,11 +7,10 @@ app.use(cors());
 
 // Or you can configure CORS with options
 // For example, allow requests from a specific origin
-/*
+
 app.use(cors({
   origin: 'http://example.com'
 }));
-*/
 
 // Define your routes
 app.get('/', (req, res) => {
